@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.db
+
+# Django migrations
+migrations/
+
+# If you are using SQLite3 as the database
+*.sqlite3
+
+# Media folder (where user-uploaded files are stored)
+media/
+
+# Static files (CSS, JavaScript, images)
+staticfiles/
+static/
+
+# Environment variables
+.env
+
+# Ignore the .venv directory if using virtualenv in your project
+.venv/
+venv/
+
+# Node.js files
+node_modules/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS specific files
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+
+# Unit test / pytest
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.envrc
+venv/
+.env.*
+.envrc.*
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Pycharm files
+*.iml
+.idea/
+
+# System files
+Thumbs.db
+.DS_Store
